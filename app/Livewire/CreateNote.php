@@ -33,6 +33,8 @@ class CreateNote extends Component
         // go to notes list page
         $this->redirectRoute('notes', navigate: true);
     }
+
+  
     public function render()
     {
         return view('livewire.create-note');
